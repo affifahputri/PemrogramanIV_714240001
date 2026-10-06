@@ -1,17 +1,16 @@
-# praktikum
+# Pertemuan 03 - Praktikum Pemrograman IV
 
-A new Flutter project.
+Repositori ini berisi laporan dan hasil praktikum mata kuliah **Pemrograman IV** pertemuan ke-3 mengenai penggunaan **Stateless** dan **Stateful Widget** pada Flutter.
 
-## Getting Started
+* **Nama:** Affifah Putri Deza
+* **NIM:** 714240001
+* **Kelas:** 3A D4 Teknik Informattika
 
-This project is a starting point for a Flutter application.
+## Deskripsi Tugas
+Praktikum ini membahas cara membuat dan membedakan penggunaan:
+1. **StatelessWidget**: Widget yang bersifat statis (tidak berubah setelah dirender).
+2. **StatefulWidget**: Widget yang dapat mengubah keadaannya (*state*) secara dinamis, seperti tombol interaktif untuk memperbesar dan memperkecil ukuran teks.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Struktur Folder
+* `Praktikum/`: Berisi kode sumber project Flutter.
+* `Output/`: Berisi bukti hasil eksekusi aplikasi (GIF/PNG).
