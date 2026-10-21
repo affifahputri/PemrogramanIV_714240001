@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Tugas Pertemuan 4'),
         centerTitle: true,
-        backgroundColor: Colors.deepOrange.shade400,
+        backgroundColor: const Color.fromARGB(255, 244, 85, 138),
         foregroundColor: Colors.white,
       ),
       body: Center(
