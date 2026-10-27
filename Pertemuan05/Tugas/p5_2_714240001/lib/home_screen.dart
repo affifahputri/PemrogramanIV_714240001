@@ -23,6 +23,7 @@ class HomeScreen extends StatelessWidget {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
+                // profile image 
                 ClipRRect(
                   borderRadius: BorderRadius.circular(20),
                   child: Image.asset(
@@ -55,6 +56,7 @@ class HomeScreen extends StatelessWidget {
                 const SizedBox(height: 16),
                 ElevatedButton(
                   onPressed: () {
+                    // pindah ke halaman detail screen
                     Navigator.push(
                       context,
                       MaterialPageRoute(

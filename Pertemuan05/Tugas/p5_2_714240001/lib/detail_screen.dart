@@ -64,6 +64,7 @@ class DetailScreen extends StatelessWidget {
               'Gallery Aktivitas',
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
             ),
+            // listview
             const SizedBox(height: 8),
             SizedBox(
               height: 180,
@@ -95,7 +96,8 @@ class DetailScreen extends StatelessWidget {
             const SizedBox(height: 32),
             Center(
               child: OutlinedButton(
-                onPressed: () => Navigator.pop(context),
+                // kembali ke halaman sebelumnya
+                onPressed: () => Navigator.pop(context), 
                 child: const Text('Kembali'),
               ),
             ),
